@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prajwal Pawar | Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+      color: #f1f1f1;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #111;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: 0 8px 30px rgba(0, 255, 225, 0.2);
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #00ffe1;
+      margin-bottom: 1rem;
+      transition: transform 0.4s ease;
+    }
+
+    header img:hover {
+      transform: scale(1.05);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #00ffe1;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #bbb;
+    }
+
+    section {
+      padding: 3rem 10%;
+      animation: fadeIn 1s ease-in;
+    }
+
+    h2 {
+      color: #00ffe1;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-bottom: 0.75rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .skills-grid div {
+      background: #222;
+      padding: 0.75rem;
+      border-radius: 8px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .skills-grid div:hover {
+      background: #00ffe1;
+      color: #000;
+      font-weight: bold;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-box {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 12px;
+      padding: 1.2rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project-box:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(0, 255, 225, 0.3);
+    }
+
+    .project-box h3 {
+      color: #00ffe1;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-box p {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+
+    .project-box a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #00ffe1;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+
+    .project-box a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 2rem;
+      color: #888;
+      margin-top: 3rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="pp.jpg" alt="Prajwal Pawar" />
+    <h1>Prajwal Pawar</h1>
+    <p>Full Stack Developer | AI & Prompt Engineer | Author of "The Art of Hack"</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m a passionate and versatile Full Stack Software Engineer with experience in Django, CI4, Angular, PostgreSQL, and AI tools. I build scalable and intelligent digital solutions with modern tech stacks.</p>
+  </section>
+
+  <section>
+    <h2>Skills & Technologies</h2>
+    <div class="skills-grid">
+      <div>HTML, CSS, JS</div>
+      <div>Angular</div>
+      <div>Python, Django</div>
+      <div>PHP, CI4</div>
+      <div>PostgreSQL, SQL</div>
+      <div>Prompt Engineering</div>
+      <div>REST APIs</div>
+      <div>AI Tools (ChatGPT, ML)</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+    <ul>
+      <li><strong>MITECH Solution</strong> – Full Stack Developer</li>
+      <li>Projects: MICRM, MIDairy, AppointFix</li>
+      <li><strong>Kiren Academy</strong> – Python Developer (Intern)</li>
+      <li>Projects: Attendance System, Fin AI, DFang</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-box">
+        <h3>AppointFix</h3>
+        <p>Smart appointment booking system</p>
+        <a href="https://appointfixuserionic.pages.dev/login">Live Project Link</a>
+      </div>
+      <div class="project-box">
+        <h3>MICRM</h3>
+        <p>Custom CRM platform for business</p>
+        <a href=" https://midairyuserionic.pages.dev/register">Live Project Link</a>
+      </div>
+      <div class="project-box">
+        <h3>Fin AI</h3>
+        <p>Personal finance tracker powered by AI</p>
+        <a href=" https://finaimitechwishfang.netlify.app/">Live Project Link</a>
+      </div>
+      <div class="project-box">
+        <h3>DFang</h3>
+        <p>Data-focused backend application</p>
+        <a href=" https://github.com/Prajwalpawar1/django">View Repository</a>
+      </div>
+      <div class="project-box">
+        <h3>Krishna Dairy </h3>
+        <p>Facial recognition-based attendance tracker</p>
+        <a href=" https://demomidiaryangularadmin.pages.dev/auth/signin">View Repository</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.E. in Computer Engineering</strong> – Navsahyadri Institute of Technology (SPPU) – CGPA: 9.25</li>
+      <li><strong>HSC</strong> – Shri Shivaji College – 79%</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Book</h2>
+    <p><em>The Art of Hack</em> – A unique cybersecurity book authored with passion and insight.</p>
+  </section>
+
+  <section>
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Writing & Publishing</li>
+      <li>Reading Tech Articles</li>
+      <li>AI Experiments</li>
+      <li>Poetry & Innovation</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: prajwalpawar100k@gmail.com<br>
+       Phone: +91 7385451714<br>
+       Location: Pune, Maharashtra</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prajwal Pawar. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
